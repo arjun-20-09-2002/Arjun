@@ -1,0 +1,146 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+main {
+    margin: 20px;
+}
+
+aside {
+    margin: 20px;
+}
+
+.welcome-section {
+    text-align: center;
+}
+
+.blog-section {
+    margin-top: 30px;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.blog-post h4 {
+    margin: 0;
+}
+
+.blog-post p {
+    margin: 10px 0;
+}
+
+.read-more-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.about-section {
+    margin-top: 30px;
+}
+
+.about-section h3 {
+    margin-bottom: 10px;
+}
+
+.about-content {
+    display: none;
+    margin-top: 10px;
+}
+
+.profile-pic {
+    text-align: right;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.search-form input[type="submit"] {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
